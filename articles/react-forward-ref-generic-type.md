@@ -129,7 +129,7 @@ const Component2 = React.forwardRef(Component2Wrapped);
 
 ## まとめ
 
-<!-- textlint-disable ja-technical-writing/no-doubled-joshi -->`React.forwardRef` ではジェネリック型を持った props を扱うことができない問題があり、3 つの対処方法を紹介しました。<!-- textlint-enable ruleA -->
+<!-- textlint-disable ja-technical-writing/no-doubled-joshi -->`React.forwardRef` ではジェネリック型を持った props を扱うことができない問題があり、3 つの対処方法を紹介しました。<!-- textlint-enable ja-technical-writing/no-doubled-joshi -->
 
 今回、私達は UI コンポーネントライブラリとして提供するため、使用する側の混乱を軽減するために 1. キャストする方法を用いることにしました。
 
@@ -141,10 +141,10 @@ ref を用いないで実装をするのがベストですが、どうしても�
 
 そのため、エンジニアを始めとして、全方向で一緒に働くメンバーを募集しています。面白いフェーズなので、興味がある方はお気軽にご応募ください！
 
-<!-- textlint-disable ja-technical-writing/ja-no-redundant-expression -->いきなりの応募はちょっと...という方は大石個人へ DM やメールして頂ければざっくばらんにお話することも可能です！<!-- textlint-enable ruleA -->
+<!-- textlint-disable ja-technical-writing/ja-no-redundant-expression -->いきなりの応募はちょっと...という方は大石個人へ DM やメールして頂ければざっくばらんにお話することも可能です！<!-- textlint-enable ja-technical-writing/ja-no-redundant-expression -->
 
 ぜひお気軽にご連絡ください。
 
-<https://hrmos.co/pages/hacobell>
+https://hrmos.co/pages/hacobell
 
 [^1]: [https://github.com/microsoft/TypeScript/issues/30650#issuecomment-486680485](https://github.com/microsoft/TypeScript/issues/30650#issuecomment-486680485)
