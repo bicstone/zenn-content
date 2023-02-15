@@ -1,0 +1,27 @@
+{
+  "name": "content",
+  "private": true,
+  "version": "1.0.0",
+  "description": "content",
+  "scripts": {
+    "lint": "yarn lint:md && yarn lint:text",
+    "lint:md": "markdownlint-cli2 ./articles/**/*.md",
+    "lint:text": "textlint --cache --experimental --parallel ./articles/**/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bicstone/content.git"
+  },
+  "author": "Oishi Takanori",
+  "license": "CC-BY-SA-4.0",
+  "homepage": "https://github.com/bicstone/content#readme",
+  "devDependencies": {
+    "markdownlint": "0.27.0",
+    "markdownlint-cli2": "0.6.0",
+    "textlint": "13.3.0",
+    "textlint-rule-editorconfig": "1.0.3",
+    "textlint-rule-preset-ja-spacing": "2.3.0",
+    "textlint-rule-preset-ja-technical-writing": "7.0.0",
+    "zenn-cli": "0.1.139"
+  }
+}
