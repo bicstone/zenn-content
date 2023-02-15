@@ -9,7 +9,7 @@
     "lint:md": "markdownlint-cli2 ./articles/**/*.md",
     "lint:text": "textlint --cache ./articles/**/*.md",
     "format": "prettier --cache --check ./articles/**/*.md",
-    "prepare": "husky install"
+    "postinstall": "husky install"
   },
   "repository": {
     "type": "git",
