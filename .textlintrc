@@ -1,17 +1,24 @@
 {
   "rules": {
     "preset-ja-spacing": {
+      "ja-space-around-code": {
+        "before": true,
+        "after": true
+      },
       "ja-space-between-half-and-full-width": {
-        "space": "always",
-        "exceptPunctuation": false
+        "space": [
+          "alphabets",
+          "numbers"
+        ]
       }
     },
-    "editorconfig": {
-      "charset": false
-    },
     "preset-ja-technical-writing": {
-      "ja-technical-writing/no-exclamation-question-mark": false,
-      "ja-technical-writing/sentence-length": false
+      "no-exclamation-question-mark": false,
+      "sentence-length": false,
+      "max-kanji-continuous-len": false
     }
+  },
+  "filters": {
+    "comments": true
   }
 }
