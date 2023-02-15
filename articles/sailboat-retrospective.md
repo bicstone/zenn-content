@@ -43,7 +43,7 @@ publication_name: "hacobell_dev"
 | Anchor (錨)       | ヨットを遅らせるブロッカー                                    |
 | Reef (暗礁)       | ヨットを座礁させる将来的なリスク                              |
 
-![Sailboat Retrospective のイラスト例。海の上にヨットのイラストが浮かんでおり、右の島のイラストに向かって進んでいる。空に太陽と追い風のイラストがある。海の下にはヨットに繋がれた錨のイラストがある。ヨットと島との間には暗礁のイラストがある。](/sailboat-retrospective/image01.png)
+![Sailboat Retrospective のイラスト例。海の上にヨットのイラストが浮かんでおり、右の島のイラストに向かって進んでいる。空に太陽と追い風のイラストがある。海の下にはヨットに繋がれた錨のイラストがある。ヨットと島との間には暗礁のイラストがある。](/images/sailboat-retrospective/image01.png)
 
 [Sailboat Retro](https://www.figma.com/community/file/967321073661280669) Created by [Brody](https://www.figma.com/@brody) (CC BY 4.0)
 
@@ -75,7 +75,7 @@ https://miro.com/ja/templates/sailboat-retrospective/
 
 下記は、私たちのスクラムチームのホワイトボードです。FigJam を使用しています。
 
-![Sailboat Retrospective のボードに付箋を貼った例。付箋にはいいね！などのスタンプを貼り付けている。島のイラスト付近には、スプリントゴールとプロダクトゴールを貼り付けている。太陽の右側に雲を新たに追加している。](/sailboat-retrospective/image02.png)
+![Sailboat Retrospective のボードに付箋を貼った例。付箋にはいいね！などのスタンプを貼り付けている。島のイラスト付近には、スプリントゴールとプロダクトゴールを貼り付けている。太陽の右側に雲を新たに追加している。](/images/sailboat-retrospective/image02.png)
 
 最初はテンプレートを活用していましたが、メンバーを意見から少しカスタマイズしています。
 
