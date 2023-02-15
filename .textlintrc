@@ -1,15 +1,17 @@
 {
   "rules": {
-    "preset-ja-spacing": true,
+    "preset-ja-spacing": {
+      "ja-space-between-half-and-full-width": {
+        "space": "always",
+        "exceptPunctuation": false
+      }
+    },
     "editorconfig": {
       "charset": false
     },
-    "preset-ja-technical-writing": true,
-    "ja-space-between-half-and-full-width": {
-      "space": "always",
-      "exceptPunctuation": false
-    },
-    "ja-technical-writing/no-exclamation-question-mark": false,
-    "ja-technical-writing/sentence-length": false
+    "preset-ja-technical-writing": {
+      "ja-technical-writing/no-exclamation-question-mark": false,
+      "ja-technical-writing/sentence-length": false
+    }
   }
 }

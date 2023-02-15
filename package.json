@@ -4,9 +4,11 @@
   "version": "1.0.0",
   "description": "content",
   "scripts": {
-    "lint": "yarn lint:md && yarn lint:text",
-    "lint:md": "markdownlint-cli2 ./articles/**/*.md",
-    "lint:text": "textlint --cache --experimental --parallel ./articles/**/*.md"
+    "lint": "yarn format && yarn lint:md && yarn lint:text",
+    "lint:md": "markdownlint-cli2 --fix ./articles/**/*.md",
+    "lint:text": "textlint --cache --experimental --parallel --fix ./articles/**/*.md",
+    "format": "prettier --cache --write .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -16,8 +18,10 @@
   "license": "CC-BY-SA-4.0",
   "homepage": "https://github.com/bicstone/content#readme",
   "devDependencies": {
+    "husky": "8.0.3",
     "markdownlint": "0.27.0",
     "markdownlint-cli2": "0.6.0",
+    "prettier": "2.8.4",
     "textlint": "13.3.0",
     "textlint-rule-editorconfig": "1.0.3",
     "textlint-rule-preset-ja-spacing": "2.3.0",
