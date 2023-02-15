@@ -9,3 +9,9 @@
 coming soon...
 
 - [bicstone/portfolio](https://github.com/bicstone/portfolio)
+
+## License
+
+[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbicstone%2Fcontent.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbicstone%2Fcontent?ref=badge_large)
