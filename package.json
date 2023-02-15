@@ -2,7 +2,7 @@
   "name": "content",
   "private": true,
   "version": "1.0.0",
-  "description": "content",
+  "description": "Content for Portfolio and Zenn by Oishi Takanori (Public)",
   "scripts": {
     "lint": "yarn format && yarn lint:md && yarn lint:text",
     "lint:fix": "yarn format --write && yarn lint:md --fix && yarn lint:text --fix",
