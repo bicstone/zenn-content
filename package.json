@@ -8,7 +8,7 @@
     "lint:fix": "yarn format --write && yarn lint:md --fix && yarn lint:text --fix",
     "lint:md": "markdownlint-cli2 ./articles/**/*.md",
     "lint:text": "textlint --cache ./articles/**/*.md",
-    "format": "prettier --cache --check .",
+    "format": "prettier --cache --check ./articles/**/*.md",
     "prepare": "husky install"
   },
   "repository": {
@@ -28,5 +28,6 @@
     "textlint-rule-preset-ja-spacing": "2.3.0",
     "textlint-rule-preset-ja-technical-writing": "7.0.0",
     "zenn-cli": "0.1.139"
-  }
+  },
+  "packageManager": "yarn@3.4.1"
 }
