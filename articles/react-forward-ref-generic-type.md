@@ -15,7 +15,7 @@ publication_name: "hacobell_dev"
 
 ## 背景
 
-ハコベルでは、デザインシステムの構築を進めています。 UI コンポーネントの実装にあたり、 ref を転送する必要があったのですが、 TypeScript のジェネリック型を持った Props を扱うことができないという問題に直面しました。
+ハコベルでは、デザインシステムの構築を進めています。UI コンポーネントの実装にあたり、ref を転送する必要があったのですが、TypeScript のジェネリック型を持った Props を扱うことができないという問題に直面しました。
 
 例として、下記のようなジェネリック型を持った Props を渡す必要がある Component1 を Component2 から呼び出したい場合を考えます。
 
@@ -25,7 +25,7 @@ const Component2 = <T,>(props: Component1Props<T>) => (
 );
 ```
 
-ref も渡す必要があったため、 `React.forwardRef` を用いて実装しようとしたのですが、 Component1Props にジェネリクスを渡すことができません。
+ref も渡す必要があったため、`React.forwardRef` を用いて実装しようとしたのですが、Component1Props にジェネリクスを渡すことができません。
 
 ```tsx
 const Component2 = React.forwardRef<HTMLDivElement, Component1Props>(
@@ -63,11 +63,11 @@ const Component2 = React.forwardRef<HTMLDivElement, Component1Props<any>>(
 
 プログラムとしてわかりやすく、使う側も理解しやすい利点があります。
 
-一方、変更に弱かったり、 Type Error が発生しなくなってしまう可能性があるなど、あまり TypeScript の恩恵を受けられない方法でもあります。
+一方、変更に弱かったり、Type Error が発生しなくなってしまう可能性があるなど、あまり TypeScript の恩恵を受けられない方法でもあります。
 
 ### 2. forwardRef を使用しない
 
-次に forwardRef を使用せず、 ref を転送する prop を別途作成する方法です。 forwardRef が実装される前は、 prop として ref を渡していました。現バージョンでも動作し、[React の公式ドキュメント](https://ja.reactjs.org/docs/refs-and-the-dom.html#exposing-dom-refs-to-parent-components) でも紹介されている方法です。
+次に forwardRef を使用せず、ref を転送する prop を別途作成する方法です。forwardRef が実装される前は、prop として ref を渡していました。現バージョンでも動作し、[React の公式ドキュメント](https://ja.reactjs.org/docs/refs-and-the-dom.html#exposing-dom-refs-to-parent-components) でも紹介されている方法です。
 
 ```tsx
 const Component2 = <T,>(
@@ -119,17 +119,17 @@ const Component2 = React.forwardRef(Component2Wrapped);
 
 [StackOverflow](https://stackoverflow.com/a/58473012) Answered by [ford04](https://stackoverflow.com/users/5669456/ford04) (CC BY SA 4.0)
 
-元々の forwardRef の型と一見変わらなく見えます。しかし、 TypeScript のアーキテクトである Anders Hejlsberg さんによると、高次関数型推論が行えるのは単一の呼び出しシグネチャと他のメンバーを持たない純粋関数の場合のみであると説明しています[^1]。
+元々の forwardRef の型と一見変わらなく見えます。しかし、TypeScript のアーキテクトである Anders Hejlsberg さんによると、高次関数型推論が行えるのは単一の呼び出しシグネチャと他のメンバーを持たない純粋関数の場合のみであると説明しています[^1]。
 
 元々の型は純粋関数でないため、高階関数推論が動作していませんでした。この型の置き換えによって、純粋関数になったため高階関数推論が動作するようになります。
 
-この方法のメリットは、 1 箇所のみの修正で済むためプログラムが煩雑にならず変更にも強くなります。使用する側も ref prop で渡せるので内部実装を意識する必要がありません。
+この方法のメリットは、1 箇所のみの修正で済むためプログラムが煩雑にならず変更にも強くなります。使用する側も ref prop で渡せるので内部実装を意識する必要がありません。
 
 一方デメリットとして、`declare module` による型定義は、私の過去の経験上トラブルが起きやすく、後々維持していく上で問題になる可能性があります。
 
 ## まとめ
 
-<!-- textlint-disable ja-technical-writing/no-doubled-joshi -->`React.forwardRef` ではジェネリック型を持った props を扱うことができない問題があり、 3 つの対処方法を紹介しました。<!-- textlint-enable ruleA -->
+<!-- textlint-disable ja-technical-writing/no-doubled-joshi -->`React.forwardRef` ではジェネリック型を持った props を扱うことができない問題があり、3 つの対処方法を紹介しました。<!-- textlint-enable ruleA -->
 
 今回、私達は UI コンポーネントライブラリとして提供するため、使用する側の混乱を軽減するために 1. キャストする方法を用いることにしました。
 
@@ -137,7 +137,7 @@ ref を用いないで実装をするのがベストですが、どうしても�
 
 ## 最後に
 
-ハコベルでは運輸大手セイノーホールディングスとのジョイントベンチャー化に伴い、 2022 年 8 月に第二創業期を迎えました。
+ハコベルでは運輸大手セイノーホールディングスとのジョイントベンチャー化に伴い、2022 年 8 月に第二創業期を迎えました。
 
 そのため、エンジニアを始めとして、全方向で一緒に働くメンバーを募集しています。面白いフェーズなので、興味がある方はお気軽にご応募ください！
 

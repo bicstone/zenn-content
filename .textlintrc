@@ -9,7 +9,8 @@
         "space": [
           "alphabets",
           "numbers"
-        ]
+        ],
+        "exceptPunctuation": true
       }
     },
     "preset-ja-technical-writing": {
