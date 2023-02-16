@@ -75,7 +75,7 @@ https://miro.com/ja/templates/sailboat-retrospective/
 
 下記は、私たちのスクラムチームのホワイトボードです。FigJam を使用しています。
 
-![Sailboat Retrospective のボードに付箋を貼った例。付箋にはいいね！などのスタンプを貼り付けている。島のイラスト付近には、スプリントゴールとプロダクトゴールを貼り付けている。太陽の右側に雲を新たに追加している。](/images/sailboat-retrospective/image02.png)
+![Sailboat Retrospective のボードに付箋を貼った例。付箋にはいいね！などのスタンプを貼り付けている。元あった島よりも先にプロダクトゴールとしての島を新たに追加している。それぞれの島のイラスト付近には、スプリントゴールとプロダクトゴールを貼り付けている。太陽の隣に雲を新たに追加している。](/images/sailboat-retrospective/image02.png)
 
 最初はテンプレートを活用していましたが、メンバーの意見から少しカスタマイズしています。
 
@@ -85,20 +85,23 @@ https://miro.com/ja/templates/sailboat-retrospective/
 
 ## まとめ
 
-振り返りのフレームワークを KPT 法から Sailboat Retrospective に変更したことで、殺伐とした反省会を一転させ、より楽しく、有意義な振り返りにできました。
+振り返りのフレームワークを KPT 法から Sailboat Retrospective に変更しました。このフレームワークは下記のような利点があり、殺伐とした反省会を一転させ、より楽しく、有意義な振り返りにできました。
+
+- 短期的・長期的な事柄を区別できる
+- ブロッカーとリスクで分けることで、Problem のコメントが出しやすくなる
+- プロダクトゴール、スプリントゴールに関することに話を集中させることができる
+- イラストを用いることで視覚的に優れ、より楽しい場にできる
 
 海外では著名なフレームワークであることからテンプレートも多数存在しており、簡単に始められるのでぜひ試してみてください。
 
-オススメの振り返り手法があれば、ぜひコメントで教えてください！
+他にもオススメの振り返り手法があれば、ぜひコメントで教えてください！
 
 ## 最後に
 
 ハコベルでは運輸大手セイノーホールディングスとのジョイントベンチャー化に伴い、2022 年 8 月に第二創業期を迎えました。
 
-そのため、エンジニア、デザイナーや PdM を始めとして、全方向で一緒に働くメンバーを募集しています。面白いフェーズなので、興味がある方はお気軽にご応募ください！
+そのため、エンジニア、デザイナーや PdM を始めとして、全方向で一緒に働くメンバーを募集しています。面白いフェーズなので、興味がある方はお気軽にご応募ください。
 
-<!-- textlint-disable ja-technical-writing/ja-no-redundant-expression -->いきなりの応募はちょっと...という方は大石個人へ DM やメールして頂ければざっくばらんにお話することも可能です！<!-- textlint-enable ja-technical-writing/ja-no-redundant-expression -->
-
-ぜひお気軽にご連絡ください！
+<!-- textlint-disable ja-technical-writing/ja-no-redundant-expression -->いきなりの応募はちょっと...という方は大石個人へ DM やメールして頂ければざっくばらんにお話することも可能です。ぜひお気軽にご連絡ください！<!-- textlint-enable ja-technical-writing/ja-no-redundant-expression -->
 
 https://hrmos.co/pages/hacobell
