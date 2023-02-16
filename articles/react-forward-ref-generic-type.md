@@ -1,5 +1,5 @@
 ---
-title: "React.forwardRef で TypeScript の Generic 型 が扱えない問題の対処方法"
+title: "React.forwardRef で TypeScript のジェネリック型が扱えない問題の対処方法"
 emoji: "🧩"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["react", "typescript", "frontend", "component"]
@@ -45,7 +45,7 @@ function forwardRef<T, P = {}>(
 
 この問題に対して 3 つの対処方法があります。それぞれのメリット、デメリットを解説します。
 
-### 1. キャストする方法
+### 1. キャストする
 
 まずはキャストする方法を解説します。
 
@@ -131,9 +131,9 @@ const Component2 = React.forwardRef(Component2Wrapped);
 
 <!-- textlint-disable ja-technical-writing/no-doubled-joshi -->`React.forwardRef` ではジェネリック型を持った props を扱うことができない問題があり、3 つの対処方法を紹介しました。<!-- textlint-enable ja-technical-writing/no-doubled-joshi -->
 
-今回、私達は UI コンポーネントライブラリとして提供するため、使用する側の混乱を軽減するために 1. キャストする方法を用いることにしました。
+今回、私達は UI コンポーネントライブラリとして提供するため、使用する側の混乱を軽減するために「1. キャストする」方法を用いることにしました。
 
-ref を用いないで実装をするのがベストですが、どうしても使う必要がある場合、ドキュメントを整えた上で 2. forwardRef を使用しない方法を用いるのが、保守性を考えてベストな方法だと考えています。
+ref を用いないで実装をするのがベストですが、どうしても使う必要がある場合、ドキュメントを整えた上で「2. forwardRef を使用しない」方法を用いるのが、保守性を考えてベターな方法だと考えています。
 
 ## 最後に
 
