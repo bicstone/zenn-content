@@ -2,7 +2,7 @@
 title: "複数行かつ 溢れたら 3 点リーダーを付ける処理を CSS だけで実現したい"
 emoji: "💬"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["hrml", "css", "w3c", "lineclamp", "webkit"]
+topics: ["html", "css", "w3c", "lineclamp", "webkit"]
 published: true
 published_at: 2023-02-19 10:00
 ---
