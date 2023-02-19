@@ -4,7 +4,7 @@ emoji: "🔐"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["npm", "githubpackages", "githubactions", "circleci", "codebuild"]
 published: true
-published_at: 2023-02-25 10:00
+published_at: 2023-02-20 10:00
 ---
 
 npm private packages や GitHub Packages などのプライベート npm パッケージをインストールする場合の CI/CD の設定方法を解説します。
@@ -110,4 +110,4 @@ https://docs.docker.com/engine/reference/builder/#run---mounttypesecret
 
 マイクロフロントエンドやデザインシステムを適用する場面で必要な機会が増えてきそうです。
 
-なお、有効期限のないアクセストークンを扱う以上、セキュリティのリスクがあります。日々ベストプラクティスは変わっていくので、 1 年に 1 回くらい見直すタスクを用意すると良いと考えられます。
+なお、有効期限のないアクセストークンを扱う以上、セキュリティのリスクがあります。日々ベストプラクティスは変わっていくので、 1 年に 1 回くらい見直しが必要です。
