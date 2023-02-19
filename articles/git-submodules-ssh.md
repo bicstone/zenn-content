@@ -4,7 +4,7 @@ emoji: "🎭"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["git", "github", "ssh", "submodule"]
 published: true
-published_at: 2023-02-26 10:00
+published_at: 2023-02-23 10:00
 ---
 
 Git において普段は https で接続しつつも、特定の submodule だけ ssh で接続する方法を解説します。
