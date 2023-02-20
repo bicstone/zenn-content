@@ -2,7 +2,7 @@
 title: "React.forwardRef で TypeScript のジェネリック型を扱う方法"
 emoji: "🧩"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["react", "typescript", "frontend", "component"]
+topics: ["react", "typescript", "frontend", "component", "ref"]
 published: false
 publication_name: "hacobell_dev"
 ---
