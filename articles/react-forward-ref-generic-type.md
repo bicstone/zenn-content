@@ -1,5 +1,5 @@
 ---
-title: "React.forwardRef で TypeScript のジェネリック型が扱えない問題の対処方法"
+title: "React.forwardRef で TypeScript のジェネリック型を扱う方法"
 emoji: "🧩"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["react", "typescript", "frontend", "component"]
@@ -15,7 +15,7 @@ publication_name: "hacobell_dev"
 
 ## 背景
 
-ハコベルでは、デザインシステムの構築を進めています。UI コンポーネントの実装にあたり、ref を転送する必要があったのですが、TypeScript のジェネリック型を持った Props を扱うことができないという問題に直面しました。
+ハコベルでは、コンポーネントの共通利用を見越したライブラリ化を進めています。UI コンポーネントの実装にあたり、ref を転送する必要があったのですが、TypeScript のジェネリック型を持った Props を扱うことができないという問題に直面しました。
 
 例として、下記のようなジェネリック型を持った Props を渡す必要がある Component1 を Component2 から呼び出したい場合を考えます。
 
@@ -71,7 +71,7 @@ const Component2 = React.forwardRef<HTMLDivElement, Component1Props<any>>(
 
 ```tsx
 const Component2 = <T,>(
-  props: Component1Props<T> & { customRef: Ref<HTMLDivElement> }
+  props: Component1Props<T> & { customRef?: Ref<HTMLDivElement> }
 ): JSX.Element => <Component1<T> ref={customRef} {...props} />;
 ```
 
@@ -81,7 +81,7 @@ const Component2 = <T,>(
 
 プログラム上では一番シンプルで変更にも強いという大きな利点があります。
 
-一方、ドキュメントや実装を読まないと ref を渡す方法がわからないため、コンポーネントを利用する側で混乱を引き起こす可能性があります。
+一方、React 開発者で広く知られている命名である `ref` prop でなく `customRef` prop で渡す必要があるため、コンポーネントを利用する側で混乱を引き起こす可能性があります。
 
 ### 3. forwardRef の型を上書きして型推論を効かせる
 
@@ -107,7 +107,7 @@ interface Component1Props<T> {
 
 const Component2Wrapped = <T, P = {}>(
   props: Component1Props<P>,
-  ref: React.ForwardedRef<T>
+  ref?: React.ForwardedRef<T>
 ): JSX.Element => <Component1 ref={ref} {...props} />;
 
 const Component2 = React.forwardRef(Component2Wrapped);
