@@ -3,7 +3,8 @@ title: "脱 KPT 法で楽しく有意義に振り返り! Sailboat Retrospective"
 emoji: "⛵"
 type: "idea"
 topics: ["スクラム", "scrum", "アジャイル", "振り返り", "retrospective"]
-published: false,
+published: true,
+published_at: 2023-02-27 11:00
 publication_name: "hacobell_dev"
 ---
 
