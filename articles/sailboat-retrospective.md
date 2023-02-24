@@ -106,10 +106,14 @@ https://miro.com/ja/templates/sailboat-retrospective/
 
 ## 最後に
 
-ハコベルでは運輸大手セイノーホールディングスとのジョイントベンチャー化に伴い、2022 年 8 月に第二創業期を迎えました。
+私たちは「物流の次を発明する」をミッションに掲げ、荷主と運送会社をつなぐマッチングプラットフォーム事業と、荷主向けのオペレーション DX を支援する SaaS 事業を運営しています。
 
-そのため、エンジニア、デザイナーや PdM を始めとして、全方向で一緒に働くメンバーを募集しています。面白いフェーズなので、興味がある方はお気軽にご応募ください。
+2022 年 8 月に、ラクスルの事業部からハコベル株式会社として分社化し、第二創業期を迎えました。
 
-<!-- textlint-disable ja-technical-writing/ja-no-redundant-expression -->いきなりの応募はちょっと...という方は大石個人へ DM やメールして頂ければざっくばらんにお話することも可能です。ぜひお気軽にご連絡ください！<!-- textlint-enable ja-technical-writing/ja-no-redundant-expression -->
+そのため、さらなる事業拡大を目指し、エンジニアを始めとした全方向で一緒に働くメンバーを募集しています。面白いフェーズなので、興味がある方はお気軽にご応募ください！
+
+<!-- textlint-disable ja-technical-writing/ja-no-redundant-expression -->いきなりの応募はちょっと...という方は大石個人へ DM やメールして頂ければざっくばらんにお話することも可能です！<!-- textlint-enable -->
+
+ぜひお気軽にご連絡ください。
 
 https://hrmos.co/pages/hacobell
