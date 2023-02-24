@@ -3,7 +3,7 @@ title: "コードレビューにラベルを付けるだけでチームの心理
 emoji: "💌"
 type: "idea"
 topics: ["Git", "心理的安全性", "チーム", "チーム開発", "コードレビュー"]
-published: false
+published: true
 published_at: 2023-03-06 11:00
 publication_name: "hacobell_dev"
 ---
