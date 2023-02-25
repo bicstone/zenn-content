@@ -108,11 +108,11 @@ https://beta.reactjs.org/reference/react-dom/client/hydrateRoot#suppressing-unav
 ビルドされた HTML では null を入れておき、クライアント側がレンダリングするタイミングでコンポーネントを返すようにします。
 
 ```tsx
-  <div suppressHydrationWarning>
-    {typeof window === "undefined" ? null : (
-      <time dateTime={post.created}>{createdDate}</time>
-    )}
-  </div>
+<div suppressHydrationWarning>
+  {typeof window === "undefined" ? null : (
+    <time dateTime={post.created}>{createdDate}</time>
+  )}
+</div>
 ```
 
 hydration error を抑制できました。しかし、この方法では、クライアントの hydrate が遅れた場合にコンポーネントが表示されないリスクを伴います。
