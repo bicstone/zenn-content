@@ -2,7 +2,7 @@
 title: "Gatsby でページ読み込み時にデザインがチラつく現象を一発解決するプラグインを作りました"
 emoji: "😵‍💫"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["react", "gatsby", "plugin", "fouc", "ssg"]
+topics: ["react", "gatsby", "jamstack", "fouc", "ssg"]
 published: true
 published_at: 2023-03-09 10:00
 ---
