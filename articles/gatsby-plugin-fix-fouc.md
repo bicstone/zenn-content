@@ -4,7 +4,7 @@ emoji: "😵‍💫"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["react", "gatsby", "jamstack", "fouc", "ssg"]
 published: true
-published_at: 2023-03-09 10:00
+published_at: 2023-03-09 11:00
 ---
 
 Gatsby Plugin Fix FOUC は、ページ読み込み時にスタイルが変化してちらつく問題を解決するプラグインを作りました。
