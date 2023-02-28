@@ -1,4 +1,4 @@
-# Zenn Content for Portfolio and Zenn by Oishi Takanori (Public)
+# Content for Zenn by Oishi Takanori (Public)
 
 - [Zenn Profile Page](https://zenn.dev/bicstone)
 
