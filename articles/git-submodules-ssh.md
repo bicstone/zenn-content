@@ -72,6 +72,11 @@ cd static
 git config --local core.sshCommand "ssh -i ~/.ssh/github-bicstone-portfolio-submodule"
 ```
 
+```bash
+cd ..
+git submodule update --init --recursive
+```
+
 以上で、メインのリポジトリでは https を用いた接続、submodule では特定の SSH 鍵を用いた SSH 接続という使い分けを実現できました。
 
 追加された submodule を clone してきた際に初期化する時も同様に行えます。
