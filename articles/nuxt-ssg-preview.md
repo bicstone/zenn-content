@@ -57,20 +57,20 @@ mounted を使用した単純な Vue ファイルです。 asyncData を使用�
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-  components: { NewsPage },
-  data() {
-    return {
-      content: null as NewsContent | null,
-    }
-  },
-  async mounted() {
-    const { id } = this.$route.query
-    const content = await this.$news.get(id)
-    this.content = content
-  },
-})
+  import Vue from "vue";
+  export default Vue.extend({
+    components: { NewsPage },
+    data() {
+      return {
+        content: null as NewsContent | null,
+      };
+    },
+    async mounted() {
+      const { id } = this.$route.query;
+      const content = await this.$news.get(id);
+      this.content = content;
+    },
+  });
 </script>
 ```
 
