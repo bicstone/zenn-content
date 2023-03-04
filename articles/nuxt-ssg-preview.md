@@ -16,7 +16,7 @@ publication_name: "hacobell_dev"
 
 ## ハコベルサービスサイトの技術構成について
 
-[ハコベルのサービスサイト](https://www.hacobell.com/)は、Nuxt.js の static mode と、ヘッドレスCMSである microCMS を活用した Jamstack 構成で作られています。
+[ハコベルのサービスサイト](https://www.hacobell.com/)は、Nuxt.js の static mode と、ヘッドレス CMS である microCMS を活用した Jamstack 構成で作られています。
 
 https://nuxtjs.org/ja/docs/concepts/static-site-generation/
 
