@@ -71,6 +71,8 @@ GitHub では、コメントのテンプレートを設定して、キーボー�
 
 運用し始めたばかりのタイミングではコメントのラベルの意味を忘れてしまうことも多いので、各自で Saved replies を設定するのがおすすめです。
 
+https://docs.github.com/ja/get-started/writing-on-github/working-with-saved-replies/using-saved-replies
+
 ![GitHub のスクリーンショット。ツールバーの「Select a reply」を選択してポップオーバーを展開した状態。前述 6 つのラベルの選択肢が表示されており、いずれかを選択して貼り付けることができるようになっている。](/images/code-review-comment-prefix/image02.png)
 
 ## 今後の展望
