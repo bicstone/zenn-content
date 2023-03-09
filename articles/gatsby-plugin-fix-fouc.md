@@ -9,6 +9,8 @@ published_at: 2023-03-09 10:30
 
 Gatsby Plugin Fix FOUC は、ページ読み込み時にスタイルが変化してちらつく問題を解決するプラグインを作りました。
 
+https://github.com/bicstone/gatsby-plugin-fix-fouc
+
 ## SSG で発生するちらつき (FOUC) について
 
 FOUC - flash of unstyled content とは、主に SSG によって構成されたサイトにおいて発生する問題で、ページ読み込み時にスタイルが変化してちらつく現象のことです。
@@ -54,8 +56,6 @@ Google はモバイルファーストインデックスを行っているため�
 https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing?hl=ja
 
 ## インストール
-
-https://github.com/bicstone/gatsby-plugin-fix-fouc
 
 ```bash
 yarn add gatsby-plugin-fix-fouc
