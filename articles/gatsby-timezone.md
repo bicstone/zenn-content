@@ -1,5 +1,5 @@
 ---
-title: "Gatsby でのタイムゾーンを考慮した日時の取り扱い方"
+title: "Gatsby でタイムゾーンを扱うときの注意点と解決策"
 emoji: "🕰"
 type: "tech"
 topics: ["ssg", "jamstack", "gatsby", "datefns", "react"]

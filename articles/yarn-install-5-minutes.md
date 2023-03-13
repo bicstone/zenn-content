@@ -1,5 +1,5 @@
 ---
-title: "5分から1分に！yarn install の時間を劇的に短縮した話"
+title: "5 分から 1 分に！ yarn install の時間を劇的に短縮した話"
 emoji: "⌛"
 type: "tech"
 topics: ["frontend", "npm", "yarn", "nodesass", "sass"]
