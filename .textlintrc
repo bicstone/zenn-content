@@ -11,6 +11,9 @@
           "numbers"
         ],
         "exceptPunctuation": true
+      },
+      "@proofdict/proofdict": {
+        "dictURL": "https://azu.github.io/proof-dictionary/"
       }
     },
     "preset-ja-technical-writing": {
