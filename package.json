@@ -4,11 +4,12 @@
   "version": "1.0.0",
   "description": "Content for Portfolio and Zenn by Oishi Takanori (Public)",
   "scripts": {
-    "lint": "yarn format && yarn lint:md && yarn lint:text",
-    "lint:fix": "yarn format --write && yarn lint:md --fix && yarn lint:text --fix",
-    "lint:md": "markdownlint-cli2 ./articles/**/*.md",
-    "lint:text": "textlint --cache ./articles/**/*.md",
-    "format": "prettier --cache --check ./articles/**/*.md",
+    "lint": "yarn f --check && yarn m && yarn t:cache",
+    "fix": "yarn f --write && yarn m --fix && yarn t --fix || true && yarn t:cache",
+    "t": "textlint ./articles/**/*.md",
+    "t:cache": "textlint --cache --experimental --parallel ./articles/**/*.md",
+    "m": "markdownlint-cli2 ./articles/**/*.md",
+    "f": "prettier --cache ./articles/**/*.md",
     "zenn": "zenn",
     "postinstall": "husky install"
   },
