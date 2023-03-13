@@ -54,9 +54,7 @@ https://blog.microcms.io/nuxt-preview-mode/
 
 mounted を使用した単純な Vue ファイルです。 asyncData を使用してしまうと、 静的ファイル生成時にコンテンツを取得しようとして 404 エラーが発生し失敗してしまいます。
 
-/pages/preview/news.vue
-
-```html
+```html:/pages/preview/news.vue
 <template>
   <NewsPage v-if="content" :content="content" />
 </template>
@@ -91,9 +89,7 @@ mounted を使用した単純な Vue ファイルです。 asyncData を使用�
 
 そのため、本番環境ではページを生成しないように制御します。
 
-nuxt.config.js
-
-```js
+```js:/nuxt.config.js
 const {
   CMS_BASE_URL,
   CMS_API_KEY,
