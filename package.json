@@ -5,7 +5,7 @@
   "description": "Content for Portfolio and Zenn by Oishi Takanori (Public)",
   "scripts": {
     "lint": "yarn f --check && yarn m && yarn t:cache",
-    "fix": "yarn f --write && yarn m --fix && yarn t --fix || true && yarn t:cache",
+    "lint:fix": "yarn f --write && yarn m --fix && yarn t --fix || true && yarn t:cache",
     "t": "textlint ./articles/**/*.md",
     "t:cache": "textlint --cache --experimental --parallel ./articles/**/*.md",
     "m": "markdownlint-cli2 ./articles/**/*.md",
